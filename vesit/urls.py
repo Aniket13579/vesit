@@ -19,6 +19,7 @@ from mca.views import *
 
 urlpatterns = [
     path('', home),
+    path('form/', googleform),    
     path('compiler/', compiler),
     path('admin/', admin.site.urls),
 ]
