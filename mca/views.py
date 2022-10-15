@@ -6,3 +6,6 @@ def home(request):
 
 def compiler(request):
 	return render(request,"compiler.html",{})
+
+def googleform(request):
+	return render(request,"googleform.html",{})
