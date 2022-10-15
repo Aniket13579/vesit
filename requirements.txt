@@ -1,0 +1,5 @@
+Django
+django-heroku
+gunicorn==20.0.4
+requests
+requests-oauthlib
