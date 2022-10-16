@@ -9,3 +9,6 @@ def compiler(request):
 
 def googleform(request):
 	return render(request,"googleform.html",{})
+
+def droplist(request):
+	return render(request,"droplist.html",{})
