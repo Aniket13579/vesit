@@ -17,4 +17,4 @@ def droplist(request):
 	return render(request,"droplist.html",{})
 
 def mobilephone(request):
-	return render(request,"droplist.html",{})
+	return render(request,"mobilephone.html",{})
