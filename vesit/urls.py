@@ -21,7 +21,8 @@ urlpatterns = [
     path('', home),
     path('form/', googleform),  
     path('bankform/', bankform),  
-    path('droplist/', droplist),    
+    path('droplist/', droplist),
+    path('mobilephone/', mobilephone),
     path('compiler/', compiler),
     path('admin/', admin.site.urls),
 ]
